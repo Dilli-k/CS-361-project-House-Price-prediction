@@ -8,11 +8,9 @@ This project aims to predict house prices based on a dataset from India using va
 - [Dataset](#dataset)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Models Used](#models-used)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -31,11 +29,25 @@ The dataset used in this project is specific to the Indian housing market. It in
 
 The project is organized as follows:
 
-- `course-project.ipynb`: Jupyter Notebook containing the entire project code, including data exploration, visualization, model training, and evaluation.
+- `course-project.ipynb`: Jupyter Notebook containing the entire project code, including data exploration, visualization, model training, and evaluation I did an interesting feature engineering which helped the model a lot.
 - `README.md`: This file, which provides an overview of the project.
 
 ## Installation
 
 To run the notebook, you need to have Python installed along with the necessary libraries. Follow the steps below to set up your environment:
 Download the data both Train and Test csv files
+
+## Models Used
+
+Used all standard Regression models out of them I got good results for XGBoost algo then after using GridSearchCV technique i pick the best hyperparameters for XGBoost model now my results got little better than earlier.
+
+## Evaluation
+
+RMS is used
+
+## Results
+
+Without proper Featurte Engineering XGBoost got aroung 0.75 as RMS value but with Proper Feature Engineering(Handling Lattitude and Longitiude)XGBoost got around 0.927 after tuning it became 0.931
+
+
 
