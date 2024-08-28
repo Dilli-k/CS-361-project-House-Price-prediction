@@ -47,7 +47,7 @@ RMS is used
 
 ## Results
 
-Without proper Featurte Engineering XGBoost got aroung 0.75 as RMS value but with Proper Feature Engineering(Handling Lattitude and Longitiude)XGBoost got around 0.927 after tuning it became 0.931
+Without proper Featurte Engineering XGBoost got aroung 0.75 as RMS value but with Proper Feature Engineering(Handling Lattitude and Longitiude)XGBoost got around 0.927 after tuning it became 0.934
 
 
 
